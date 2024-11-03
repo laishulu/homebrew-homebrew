@@ -4,7 +4,7 @@ cask "font-sarasa-nerd" do
   version "2.0.0"
 
   url "https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases/download/v#{version}/SarasaTermSCNerd.ttc.tar.gz"
-  sha256 "57028dc7e0c58fa2e0aa41b8a4c2a060925f3d6c0877d737d4516661a676dfe4"
+  sha256 "ad6c5ac23952ad9751e5ea91b509a7993bdeb739340ef2c1c6a34d5b80f3975e"
 
   font "SarasaTermSCNerd.ttc"
 end
