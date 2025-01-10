@@ -1,19 +1,19 @@
 class Shorm < Formula
   desc "SSH Connection Manager"
   homepage "https://github.com/laishulu/shorm"
-  version "1.1.1"
+  version "1.2.0"
 
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/laishulu/shorm/releases/download/v#{version}/shorm-macos-arm64"
-      sha256 "8d3a22214b7c96dca572bd98d7387f7f8e85090cd7a428e94c034344ab478f50"
+      sha256 "11221ffb94d00dc5930a249e96a1319fce24a825c43b408e85709390336cf529"
     else
       url "https://github.com/laishulu/shorm/releases/download/v#{version}/shorm-macos-x86_64"
-      sha256 "412c6460d259380a42329d73ba7e9f4823cf5a017bdb8bd5b9427b0eb5130af1"
+      sha256 "dcde94d8cf9232fa3d9e0dc24c640bcb6317e4d3ed960994cadf077ad9288959"
     end
   elsif OS.linux?
     url "https://github.com/laishulu/shorm/releases/download/v#{version}/shorm-linux-x86_64"
-    sha256 "ca00df6d98ccb2697849a0fe305184bb8b545e0a382dc966a64c71a4cefdccbe"
+    sha256 "5f8a4db3bf4168b929ec928781b6562c6913034ccaebe1d90e8bc7d141c24611"
   end
 
   def install
